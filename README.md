@@ -2,7 +2,7 @@
 This repository contains the implementation of drugCIPHER, 
 a linear regression framework to predict drug-target relations.
 For more details please see 
-http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011764
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011764.
 
 ## Introduction
 _drugCIPHER_ is a linear regression framework to integrate heterogenous drug 
@@ -13,7 +13,7 @@ network distance as predictors.
 
 
 ## Code
-The _code_ folder contains four matlab files for drugCIPHER. 
+The _code_ folder contains four matlab scripts for drugCIPHER. 
 * _drugCIPHER_SingleS_Validation.m_ performs leave-one-out cross-validation on drug target prediction with single drug similarity matrix as input
 * _drugCIPHER_SingleS_Overall.m_ performs drug target overall prediction with single similarity matrix 
  for all input drugs. Candidate targets are treated as all genes/proteins in the protein interation network 
